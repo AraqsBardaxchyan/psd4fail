@@ -1,0 +1,380 @@
+@font-face {
+	font-family: 'Conv_Lato-Light';
+	src: url('fonts/Lato-Light.eot');
+	src: local('☺'), url('../fonts/Lato-Light.woff') format('woff'), url('../fonts/Lato-Light.ttf') format('truetype'), url('../fonts/Lato-Light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_Lato-Bold';
+	src: url('../fonts/Lato-Bold.eot');
+	src: local('☺'), url('../fonts/Lato-Bold.woff') format('woff'), url('../fonts/Lato-Bold.ttf') format('truetype'), url('../fonts/Lato-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_Lato-Regular';
+	src: url('../fonts/Lato-Regular.eot');
+	src: local('☺'), url('../fonts/Lato-Regular.woff') format('woff'), url('../fonts/Lato-Regular.ttf') format('truetype'), url('../fonts/Lato-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_ofont.ru_Lato Light';
+	src: url('../fonts/ofont.ru_Lato Light.eot');
+	src: local('☺'), url('../fonts/ofont.ru_Lato Light.woff') format('woff'), url('../fonts/ofont.ru_Lato Light.ttf') format('truetype'), url('../fonts/ofont.ru_Lato Light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ .main{
+	background-image:  url("../img/Prostokąt 1 kopia 3.PNG");
+	 min-height: 870px;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+ 	position: relative;
+ }
+
+ header{
+ 	margin:0 150px;
+ 	display: flex;
+ 	justify-content: space-around;
+ 	padding: 35px;
+ }
+
+.header__link ul{
+ 	display: flex;
+ 	
+ }
+
+ .header__link{
+ 	margin-left:auto;
+
+ }
+
+ .header__link__ul li,a{
+ 	text-decoration: none;
+	list-style: none;
+ 	color: white;
+ 	padding: 5px;
+ 	font-size: 16px;
+ 	font-family: 'Conv_Lato-Bold';
+ 	cursor:pointer;
+
+ }
+
+ .header__link__ul a:hover{
+	color: rgba(237,20,91,255);
+
+}
+
+.header__contente{
+	margin:0 250px;
+	padding: 150px;
+	justify-content: center;
+}
+
+.header__contente__text span{
+	display: flex;
+
+}
+
+.span__text1,.span__text2{
+	color: white;
+	font-size: 46px;
+	 text-transform: uppercase;
+}
+.span__text1{
+	font-weight: bold;
+	font-family: 'Conv_Lato-Bold';
+}
+
+.span__text2{
+	margin-left:9px;
+	font-weight: lighter;
+	font-family: 'Conv_Lato-Light';
+}
+
+.header__contente__before{
+	position: absolute;
+}
+
+.header__contente__before:after{
+	content: '';
+	position: absolute;
+	width: 35%;
+	left:35%;
+	/*bottom:-20px;*/
+	border-bottom: 2px solid rgba(237,20,91,255);
+	margin-top: 40px;
+
+}
+
+.header__contente__text2{
+	margin-bottom: 100px;
+	color: rgba(255,255,255,255);
+	margin: 0 200px;
+
+
+}
+
+.header__contente__text2__1,.header__contente__text2__2{
+	font-size: 22px;
+	font-weight: 300;
+	font-family: 'Conv_Lato-Light';
+	opacity: 0.6;
+	line-height: 38px;
+	letter-spacing:0px;
+
+}
+
+.header__contente__text2__1{
+	text-align: center;
+
+}
+
+.btn{
+	margin: 0 580px;
+	margin-top: 80px;
+}
+
+.btn>button{
+	width: 200px;
+	height: 50px;
+	border-radius: 50px;
+	background-color: rgba(237,20,91,255);
+	border:1px solid rgba(237,20,91,255);
+}
+
+button>span{
+	color: white;
+	text-align:center;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 38px;
+	font-family: 'Conv_Lato-Bold';
+	text-transform: uppercase;
+}
+
+
+section{
+	width: 100%;
+	display: flex;
+	background-color: rgb(255,255,255,255);
+}
+
+
+
+.section__text1{
+	text-align: center;
+	font-size: 38px;
+	line-height: 52px;
+	color: #5a5a5a;
+	font-family: 'Conv_Lato-Light';
+	font-weight: 300;
+	font-style: italic;
+	margin-left: 90px;
+	letter-spacing: 1px;
+	text-align: center;
+	margin: 0 550px;
+
+}
+
+.section__contente__text{
+	margin-top: 150px;
+	justify-content: center;
+	
+}
+
+
+.section__contente__before{
+	position: absolute;
+}
+
+.section__contente__before:before{
+	content: '';
+	position: absolute;
+	width: 190px;
+	left:43%;
+	bottom:-35px;
+	border-bottom: 2px solid rgba(237,20,91,255);
+}
+
+
+.section__contente__text2{
+	margin: 0 300px;
+}
+
+.section__text2{
+	font-size: 15px;
+	line-height: 35px;
+	color: #5a5a5a;
+	font-family: 'Conv_Lato-Light';
+	font-weight: 300;
+	text-align: center;
+	margin-top: 290px;
+	letter-spacing: 1px;
+}
+
+.section__icon{
+	justify-content: center;
+	margin-left:  150px;
+	margin-top: 40px;
+}
+
+.section__icon>img{
+	width: 40px;
+	margin: 0 110px;
+	
+}
+
+.text{
+	justify-content: center;
+}
+.text__link{
+	display: flex;
+
+}
+
+.text__link__li>a{
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #ed145b;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Conv_Lato-Regular';
+	font-weight: 400;
+	text-align: center;
+	letter-spacing: 0px;
+	line-height: 150px;
+	margin: 0 65px;
+}
+.text__link {
+	list-style: none;
+	text-decoration: none;
+	margin-left:30px;
+
+	
+}
+
+.text-part{
+	text-align: center;
+	font-size: 38px;
+	line-height: 52px;
+	color: #5a5a5a;
+	font-family: 'Conv_Lato-Light';
+	font-weight: 300;
+	font-style: italic;
+	margin-left: 90px;
+	letter-spacing: 1px;
+	text-align: center;
+	margin: 0 500px;
+}
+
+.section2__img__container{
+	margin: 0 100px;
+	margin-top: 70px;
+	align-itemse:center;
+}
+
+.section2__img__container>img{
+	margin:0 10px; 
+}
+
+footer{
+	background-image:  url("../img/Prostokąt 1 kopia 8.PNG");
+	min-height: 650px;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+ 	position: relative;
+}
+
+
+.footer__contente{
+	margin:0 250px;
+	padding: 150px;
+	justify-content: center;
+}
+
+.footer__contente__text>p {
+	display: flex;
+	text-transform: uppercase;
+	margin-left:9px;
+	font-family: 'Conv_ofont.ru_Lato Light';
+	font-size: 38px;
+	letter-spacing: 1px;
+	line-height: 52px;
+	color: #ffffff;
+	font-weight: 300;
+	font-style: italic;
+	text-align: center;
+	opacity: 0.9;
+
+}
+
+
+.footer__contente__before{
+	position: absolute;
+}
+
+.footer__contente__before:after{
+	content: '';
+	position: absolute;
+	width: 35%;
+	left:35%;
+	border-bottom: 2px solid rgba(237,20,91,255);
+	margin-top: 40px;
+}
+
+
+.footer__contente__text2{
+	margin: 0 300px;
+}
+
+.footer__contente__text2>p{
+	width: 750px;
+	font-size: 15px;
+	letter-spacing: 0px;
+	line-height: 30px;
+	color: #ffffff;
+	font-family: "Lato";
+	font-weight: 300;
+	text-align: center;
+	opacity: 0.9;
+	
+}
+
+
+.btn{
+	margin: 0 580px;
+	margin-top: 80px;
+}
+
+.btn>button{
+	width: 200px;
+	height: 50px;
+	border-radius: 50px;
+	background-color: rgba(237,20,91,255);
+	border:1px solid rgba(237,20,91,255);
+}
+
+button>span{
+	color: white;
+	text-align:center;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 38px;
+	font-family: 'Conv_Lato-Bold';
+	text-transform: uppercase;
+}
+
