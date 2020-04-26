@@ -104,16 +104,16 @@
 	font-family: 'Conv_Lato-Light';
 }
 
-.header__contente__before{
+.header__contente__before,.footer__contente__before,.section__contente__before{
 	position: absolute;
 }
 
-.header__contente__before:after{
+.header__contente__before:after,
+.footer__contente__before:after{
 	content: '';
 	position: absolute;
 	width: 35%;
 	left:35%;
-	/*bottom:-20px;*/
 	border-bottom: 2px solid rgba(237,20,91,255);
 	margin-top: 40px;
 
@@ -123,7 +123,6 @@
 	margin-bottom: 100px;
 	color: rgba(255,255,255,255);
 	margin: 0 200px;
-
 
 }
 
@@ -192,13 +191,9 @@ section{
 .section__contente__text{
 	margin-top: 150px;
 	justify-content: center;
-	
 }
 
 
-.section__contente__before{
-	position: absolute;
-}
 
 .section__contente__before:before{
 	content: '';
@@ -280,15 +275,26 @@ section{
 	margin: 0 500px;
 }
 
-.section2__img__container{
-	margin: 0 100px;
-	margin-top: 70px;
-	align-itemse:center;
+.section2{
+ display: flex;   
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top:30px;
+
+}
+.overlay>img .hover {
+ position: absolute;
+ top: 0;
+ height: 100%;
+ width: 100%;
+ opacity: 0;
+ transition: .5s ease;
+
 }
 
-.section2__img__container>img{
-	margin:0 10px; 
-}
+
+
+
 
 footer{
 	background-image:  url("../img/Prostokąt 1 kopia 8.PNG");
@@ -323,18 +329,6 @@ footer{
 }
 
 
-.footer__contente__before{
-	position: absolute;
-}
-
-.footer__contente__before:after{
-	content: '';
-	position: absolute;
-	width: 35%;
-	left:35%;
-	border-bottom: 2px solid rgba(237,20,91,255);
-	margin-top: 40px;
-}
 
 
 .footer__contente__text2{
@@ -355,26 +349,5 @@ footer{
 }
 
 
-.btn{
-	margin: 0 580px;
-	margin-top: 80px;
-}
 
-.btn>button{
-	width: 200px;
-	height: 50px;
-	border-radius: 50px;
-	background-color: rgba(237,20,91,255);
-	border:1px solid rgba(237,20,91,255);
-}
-
-button>span{
-	color: white;
-	text-align:center;
-	font-weight: 700;
-	font-size: 15px;
-	line-height: 38px;
-	font-family: 'Conv_Lato-Bold';
-	text-transform: uppercase;
-}
 
