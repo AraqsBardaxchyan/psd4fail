@@ -308,14 +308,7 @@ section{
 	transition : opacity 1s 1.5s;
 }
 
-.hover-overlay{
-  position: absolute;
-  width: 360px;
-  background-color: #D8205C;
-  overflow: hidden;
-  transition: all 2s;
 
-}
 
 .hover-overlay{
 	bottom:50px;
@@ -325,8 +318,11 @@ section{
     display: flex;
 	justify-content:center;
 	align-items:center;
-
-
+	position: absolute;
+  	width: 360px;
+  	background-color: #D8205C;
+ 	 overflow: hidden;
+  	transition: all 2s;
 }
 
 
