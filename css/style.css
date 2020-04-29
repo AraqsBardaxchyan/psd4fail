@@ -284,11 +284,11 @@ section{
 }
 
 .overlay {
- padding: 6px 20px 50px;
+ margin: 6px 20px 50px;
  position: relative;
-  overflow: hidden;
-  cursor: pointer;
-  top:0;
+ overflow: hidden;
+ cursor: pointer;
+ top:0;
   border:0;
   
 
@@ -300,6 +300,12 @@ section{
   background-color: #D8205C;
   opacity: 0.8;
 
+
+}
+
+.overlay:hover>  .hover-overlay > .fa-search {
+	opacity: 1;
+	transition : opacity 1s 1.5s;
 }
 
 .hover-overlay{
@@ -307,30 +313,30 @@ section{
   width: 360px;
   background-color: #D8205C;
   overflow: hidden;
-  transition: all .3s;
+  transition: all 2s;
 
 }
 
 .hover-overlay{
 	bottom:50px;
-	height: 6px;
-	/*transform: skew(1deg, 3deg) ;*/
-	/*transform:  skew(1deg, 3deg) rotate(360deg) scaleY(.10);*/
-	/*transform:   skew(1deg, 3deg) rotate(360deg);*/
-	transform:skew(-1deg, 1deg) rotate(360deg);
-	
+	height: 15px;
+    transform: scale(1.5) rotate(3deg);
+    bottom: -7px;
+    display: flex;
+	justify-content:center;
+	align-items:center;
+
 
 }
 
 
 .fa-search{
-  position: absolute;
-  top:50%;
-  left: 50%;
-  color: white;
-  transform: traslate(-50%,-50%;);
-  font-size: 30px;
+  	color: white;
+  	font-size: 30px;
+  	opacity: 0;
+
 }
+
 
 
 
